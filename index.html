@@ -29,15 +29,27 @@
                     font-size:1.94vw
                 }
             }
-            body {
-                background:#141322;
-                color:#e8edfe
+            @media(prefers-color-scheme:dark) {
+                body {
+                    background:#141322;
+                    color:#e8edfe
+                }
+                a {
+                    color:#ff628f
+                }
+                #l {
+                    color:#a6ff6a
             }
-            a {
-                color:#ff628f
-            }
-            #l {
-                color:#a6ff6a
+            @media(prefers-color-scheme:light) {
+                body {
+                    background:#141322;
+                    color:#e8edfe
+                }
+                a {
+                    color:#ff628f
+                }
+                #l {
+                    color:#a6ff6a
             }
             img,#b{max-width:80ch}
             span{display:inline-block}
